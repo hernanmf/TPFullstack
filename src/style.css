@@ -43,8 +43,7 @@ header {
 .nav {
   border: 1px solid rgb(223, 12, 12);
   display: flex;
-  justify-content: space-around;
-  align-self: center;
+  justify-content: center;
 }
 nav a {
 }
