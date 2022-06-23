@@ -37,13 +37,14 @@ header {
 .barra {
   background-color: #98b9bb;
   border: 1px solid black;
-  height: 70px;
+  max-height: 70px;
+  padding: 15px;
 }
 
 .nav {
   border: 1px solid rgb(223, 12, 12);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 nav a {
 }
@@ -58,4 +59,14 @@ footer {
   border: 1px solid black;
   height: 165px;
   margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconosPie {
+  color: #98b9bb;
+  font-size: 100;
+}
+
+.info {
 }
