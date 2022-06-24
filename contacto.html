@@ -36,7 +36,24 @@
   </header>
 
   <main>
-    <img src="Images/O!MBanner1.bmp">
+    <form class="">
+
+      <label for="inputNombre" class="labelForm">Nombre completo<br></label>
+      <input type="text" class="inputForm" id="inputNombre"><br>
+
+      <label for="inputTelefono" class="labelForm">Telefono<br></label>
+      <input type="tel" class="inputForm" id="inputTelefono"><br>
+
+      <label for="inputEmail" class="labelForm">Correo electronico<br></label>
+      <input type="email" class="inputForm" id="inputEmail"><br>
+
+      <label for="textareaConsulta" class="labelForm">Escribínos tu consulta<br></label>
+      <textarea class="inputForm" id="inputConsulta"></textarea><br>
+
+      <button type="button" class="btn-default btn" id="botonConsulta">Enviar</button>
+
+    </form>
+
   </main>
 
   <footer>
@@ -80,3 +97,50 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form class="">
+  <div class="formbuilder-text form-group field-inputNombre">
+    <label for="inputNombre" class="formbuilder-text-label">Nombre completo<br></label>
+    <input type="text" class="form-control" name="inputNombre" id="inputNombre">
+  </div>
+  <div class="formbuilder-text form-group field-inputTelefono">
+    <label for="inputTelefono" class="formbuilder-text-label">Telefono<br></label>
+    <input type="tel" class="form-control" name="inputTelefono" id="inputTelefono">
+  </div>
+  <div class="formbuilder-text form-group field-inputEmail">
+    <label for="inputEmail" class="formbuilder-text-label">Correo electronico<br></label>
+    <input type="email" class="form-control" name="inputEmail" id="inputEmail">
+  </div>
+  <div class="formbuilder-textarea form-group field-inputConsulta">
+    <label for="inputConsulta" class="formbuilder-textarea-label">Escribínos tu consulta<br></label>
+    <textarea class="form-control" name="inputConsulta" id="inputConsulta"></textarea>
+  </div>
+  <div class="formbuilder-button form-group field-botonConsulta">
+    <button type="button" class="btn-default btn" name="botonConsulta" style="default"
+      id="botonConsulta">Enviar</button>
+  </div>
+</form>

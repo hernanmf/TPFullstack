@@ -47,6 +47,9 @@ header {
   justify-content: space-evenly;
 }
 nav a {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 main {
@@ -61,6 +64,7 @@ footer {
   margin-top: auto;
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
 }
 
 .iconosPie {
@@ -69,4 +73,12 @@ footer {
 }
 
 .info {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #98b9bb;
+  font-weight: 300;
+}
+
+.info p {
+  font-weight: 600;
 }
