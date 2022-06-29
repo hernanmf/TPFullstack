@@ -37,14 +37,15 @@ header {
 .barra {
   background-color: #98b9bb;
   border: 1px solid black;
-  max-height: 70px;
-  padding: 15px;
+  max-height: 60px;
+  padding: 10px;
 }
 
 .nav {
   border: 1px solid rgb(223, 12, 12);
   display: flex;
   justify-content: space-evenly;
+  min-height: 35px;
 }
 nav a {
   font-family: "Raleway", sans-serif;
@@ -52,19 +53,23 @@ nav a {
   font-weight: 600;
   text-decoration: none;
   min-height: 12px;
-  border-radius: 14px;
+  border-radius: 24px;
   padding-left: 8px;
   padding-right: 8px;
   border: 3px solid #fad2c6;
   text-align: center;
   color: white;
   min-width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 nav a:hover {
   border: 3px solid #fad2c6;
   text-align: center;
   color: #98b9bb;
   background-color: white;
+  transition: 0.6s;
 }
 
 main {
@@ -95,6 +100,11 @@ footer {
   color: #98b9bb;
   font-weight: 300;
   margin-top: 0.4%;
+  text-decoration: none;
+}
+.info a {
+  text-decoration: none;
+  color: #98b9bb;
 }
 
 .info p {
@@ -110,7 +120,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1%;
+  padding: 2.5%;
   width: 50%;
   background-color: #98b9bb;
   border-radius: 10px;
@@ -145,10 +155,17 @@ footer {
 .formulario button {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 600;
   min-width: 40%;
   min-height: 24px;
   border-radius: 10px;
   border: 3px solid #fad2c6;
   color: #98b9bb;
+}
+
+.formulario button:hover {
+  border: 3px solid #fad2c6;
+  color: #98b9bb;
+  background-color: #fad2c6;
+  transition: 0.6s;
 }
