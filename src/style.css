@@ -111,7 +111,8 @@ footer {
   font-weight: 600;
 }
 
-.formulario {
+.formulario,
+.contenedorLista {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -124,7 +125,22 @@ footer {
   width: 50%;
   background-color: #98b9bb;
   border-radius: 10px;
-  margin: 3%;
+  margin: 2.5%;
+}
+.contenedorLista {
+  margin: 1.2%;
+}
+.contenedorLista dt {
+  color: white;
+  font-weight: 600;
+  line-height: 180%;
+  text-align: center;
+}
+.contenedorLista dd {
+  color: white;
+  font-weight: 300;
+  line-height: 140%;
+  text-align: center;
 }
 
 .formulario input {
