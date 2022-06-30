@@ -12,8 +12,8 @@ var esNombre = new RegExp("^[a-zA-Z]+[A-Za-z_ ]+$");
 var esMail = new RegExp("^[\\w-]+(\\.[\\w-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$");
 var seEnvioConsulta = false;
 btnEnviar.addEventListener("click", function () {
-    taConsulta.value = taConsulta.value.trim();
     if (!seEnvioConsulta) {
+        taConsulta.value = taConsulta.value.trim();
         if (!esNombre.test(iNombre.value)) {
             alert("El nombre ingresado no es válido, revisa los datos y volve a intentarlo");
             captcha = Math.round(Math.random() * 1000000);

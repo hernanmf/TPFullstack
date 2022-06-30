@@ -15,8 +15,8 @@ let esMail = new RegExp(
 let seEnvioConsulta: boolean = false;
 
 btnEnviar.addEventListener("click", () => {
-  taConsulta.value = taConsulta.value.trim();
   if (!seEnvioConsulta) {
+    taConsulta.value = taConsulta.value.trim();
     if (!esNombre.test(iNombre.value)) {
       alert(
         "El nombre ingresado no es válido, revisa los datos y volve a intentarlo"
