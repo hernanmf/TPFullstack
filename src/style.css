@@ -38,6 +38,7 @@ body {
   justify-content: space-evenly;
   min-height: 35px;
 }
+
 nav a {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -55,6 +56,7 @@ nav a {
   align-items: center;
   justify-content: center;
 }
+
 nav a:hover {
   border: 3px solid #fad2c6;
   text-align: center;
@@ -91,6 +93,7 @@ footer {
   font-weight: 300;
   text-decoration: none;
 }
+
 .info a {
   text-decoration: none;
   color: #98b9bb;
@@ -130,6 +133,7 @@ footer {
   line-height: 180%;
   text-align: center;
 }
+
 .contenedorLista dd {
   color: white;
   font-weight: 300;
@@ -177,7 +181,7 @@ footer {
   border: 3px solid #fad2c6;
   color: #98b9bb;
   background-color: #fad2c6;
-  transition: 0.6s;
+  transition: 0.4s;
 }
 
 .contenedorProductos {
@@ -206,6 +210,7 @@ footer {
 .card:hover {
   transform: scale(1.1);
   box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
 }
 
 .card img {
